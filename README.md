@@ -1,2 +1,2 @@
 # IsmaelR13.github.io
-Personal webpage with varying complexity projects
+Personal webpage with projects that have varying complexity
