@@ -1,0 +1,132 @@
+   #logo {
+    animation-name: logo;
+    animation-duration: 5s;
+  }
+
+  @keyframes logo {
+    from {width: 25px;}
+    to {width: 475px;}
+  }
+
+  body {
+    font-family: 'Poppins', serif;
+    background-color: #f1f1f1;
+    background-image: url('../images/concrete_seamless.png');
+   
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h4::after {
+    content: "\1F44D";
+  }
+
+  .card > header {
+    background: #288088;
+    border:2px solid #45ADAD;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  .card {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    flex-basis: 450px;
+    
+  }
+
+  .pricing {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+   
+  }
+
+ a:visited {
+    color: blue;
+  }
+
+.gallery img{
+    border: solid 10px #50C7C7;
+    margin: 10px 10px 10px 10px;
+    width: 300px; 
+    
+  }
+  
+.gallery{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+@media  screen and (min-width: 900px) {
+  body > header {
+    position: sticky;
+    top: 0;
+    
+  }
+  
+  body > header, .nav_links{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start center;
+    justify-content: space-between;
+    
+  }
+
+  .pricing, .card {
+    flex-basis: 275px;
+  }
+
+}
+  @media all and (prefers-reduced-motion: reduce){ 
+    #logo {
+      animation: none;
+    }
+  }
+
+  @media  print{
+    body > header{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start center;
+
+    }
+    
+    nav {
+      width: 100%;
+   }
+    .nav_links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+    }
+
+    body {
+      font-family: Arial, Helvetica;
+      background-image: none;
+    }
+    .card {
+      border: solid 2px #45ADDD;
+      flex-basis: 325px;
+    }
+    
+    .pricing {
+      display: flex;
+      flex-flow: row nowrap;
+    
+      
+    }
+
+    .gallery, #gallery {
+      display: none;
+    }
+  }
