@@ -3057,7 +3057,7 @@ html {
     grid-template-columns: 2.25fr;
     grid-auto-rows: 0;
     grid-auto-columns: 1fr;
-    height: 750px;
+    height: 650px;
     display: flex;
   }
   
