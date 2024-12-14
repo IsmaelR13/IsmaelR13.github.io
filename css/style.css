@@ -3066,11 +3066,11 @@ html {
   }
   
   .grid-layout.desktop-4-column.tablet-2-column.mobile-portrait-1-column.grid-gap-s {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto;
   }
   
   .grid-layout.desktop-4-column.tablet-2-column.mobile-portrait-1-column.grid-gap-s.grid2 {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto;
   }
   
   .utility-link-content-block {
@@ -3361,6 +3361,7 @@ html {
     margin-bottom: 0;
     font-weight: 300;
     display: flex;
+    margin-bottom: 40px;
   }
   
   .text-span-4 {
@@ -3475,6 +3476,7 @@ html {
     text-align: left;
     margin-bottom: 0;
     font-weight: 700;
+
   }
   
   .heading-6 {
