@@ -3066,11 +3066,12 @@ html {
   }
   
   .grid-layout.desktop-4-column.tablet-2-column.mobile-portrait-1-column.grid-gap-s {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    ;
   }
   
   .grid-layout.desktop-4-column.tablet-2-column.mobile-portrait-1-column.grid-gap-s.grid2 {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   
   .utility-link-content-block {
