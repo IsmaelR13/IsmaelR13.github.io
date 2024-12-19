@@ -3755,6 +3755,7 @@ html {
   
     .container {
       text-align: center;
+      align-items:center;
     }
   
     .container.small-container.utility-position-relative {
