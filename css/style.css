@@ -6,6 +6,9 @@ html {
 
 html,body{
     overflow-x: hidden;
+    // Smooth scroll always for html tag
+    scroll-behavior: smooth;
+  //scroll-snap-type: y; // <-- snap in y axis
 }
   body {
     margin: 0;
