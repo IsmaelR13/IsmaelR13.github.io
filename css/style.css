@@ -3,7 +3,10 @@ html {
     -ms-text-size-adjust: 100%;
     font-family: sans-serif;
   }
-  
+
+html,body{
+    overflow-x: hidden;
+}
   body {
     margin: 0;
   }
