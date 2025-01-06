@@ -2408,7 +2408,7 @@
   }
   
   .section.section6 {
-    margin-top: 60px;
+    margin-top: 20px;
     padding-top: 0;
   }
 
@@ -2596,7 +2596,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 60px;
     display: flex;
   }
   
@@ -2613,7 +2612,7 @@
     grid-template: ". . ."
                    ". . ."
                    / 1.5fr;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
   }
