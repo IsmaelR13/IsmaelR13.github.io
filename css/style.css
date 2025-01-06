@@ -4,12 +4,10 @@
     font-family: sans-serif;
   }
 
-html,body{
-    overflow-x: hidden;
-    // Smooth scroll always for html tag
-    scroll-behavior: smooth;
-  //scroll-snap-type: y; // <-- snap in y axis
-}
+  body::-webkit-scrollbar {
+    display:none
+  }
+
   body {
     margin: 0;
   }
@@ -3374,7 +3372,7 @@ html,body{
     align-items: center;
     margin-bottom: 0;
     font-weight: 300;
-    display: flex;
+    display: block;
     margin-bottom: 40px;
   }
   
@@ -3525,6 +3523,10 @@ html,body{
   }
   
   @media screen and (max-width: 991px) {
+    .heading-4 {
+      overflow-wrap: break-word;
+    }
+
     .heading-5 {
       overflow-wrap: break-word;
     }
