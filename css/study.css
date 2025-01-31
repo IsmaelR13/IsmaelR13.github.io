@@ -31,7 +31,7 @@ html {
 .w-layout-layout {
   grid-row-gap: 20px;
   grid-column-gap: 20px;
-  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
   padding: 20px;
 }
