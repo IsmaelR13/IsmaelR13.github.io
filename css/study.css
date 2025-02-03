@@ -11,6 +11,12 @@ html {
   padding-top: 0;
 }
 
+.p6l {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
 .w-webflow-badge {
   display:none;
 }
@@ -3532,7 +3538,6 @@ figcaption {
 }
 
 .paragraph-6 {
-  margin-bottom: 100px;
   padding-left: 42px;
   padding-right: 20px;
   line-height: 24px;
@@ -3543,16 +3548,19 @@ figcaption {
   align-self: auto;
   margin-left: 0;
   margin-right: 100px;
+  max-width: 175px
 }
 
 .image-5 {
   margin-left: 0;
   margin-right: 0;
+  max-width: 175px
 }
 
 .image-6 {
   margin-left: 100px;
   margin-right: 0;
+  max-width: 175px
 }
 
 .flex-block {
@@ -3616,6 +3624,8 @@ figcaption {
   display: block;
 }
 
+
+
 .cell {
   flex-flow: column;
   justify-content: flex-start;
@@ -3629,6 +3639,7 @@ figcaption {
 .cell-2 {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  justify-content: center;
 }
 
 .cell-3 {
@@ -3655,6 +3666,14 @@ figcaption {
 
 .paragraph-7, .paragraph-8, .paragraph-9, .paragraph-10 {
   line-height: 24px;
+}
+
+.p6l {
+    margin-right: 40px;
+}
+
+.paragraph-10, .paragraph-8, .paragraph-9 {
+    margin-left: -20px;
 }
 
 .text-block-12 {
